@@ -4,22 +4,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh; /* Impedisci il restringimento verticale e mantieni il contenuto centrato. */
+    min-height: 100vh;
 }
 
 #container {
-    width: 80%; /* Utilizza unità relative per la larghezza. */
-    max-width: 400px; /* Imposta una larghezza massima per evitare che diventi troppo largo. */
+    width: 80%; 
+    max-width: 400px;
     background-color: white;
     min-height: 45vh;
     border: 1px solid transparent;
     border-radius: 20px;
-    overflow: hidden; /* Nascondi il contenuto se si sfora. */
+    overflow: hidden; 
     text-align: center;
 }
 
 #content img {
-    max-width: 100%; /* Impedisci che l'immagine sfori il contenitore. */
+    max-width: 100%; 
     border-radius: 10px;
     width: 350px;
 }
@@ -44,11 +44,11 @@ body {
 
 @media screen and (max-width: 414px) {
     #container {
-        width: 90%; /* Riduci ulteriormente la larghezza per schermi molto stretti. */
+        width: 90%; 
     }
 
     #content img {
-        width: 90%; /* Rendi l'immagine larga al 100% del contenitore. */
+        width: 90%;
     }
 
     #content h2 {
