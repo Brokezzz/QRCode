@@ -48,7 +48,7 @@ body{
     font-family: 'Outfit', sans-serif;
 }
 
-@media screen and (max-width: 375px) and (max-height: 896px) {
+@media screen and (max-width: 414px) and (max-height: 1000px) {
     #content img{
         width: 240px;
     }
@@ -66,3 +66,5 @@ body{
         font-size: 12px;
     }
 }
+
+
